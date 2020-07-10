@@ -1,0 +1,24 @@
+.mepetin {
+    width: 1px;
+    white-space: nowrap;
+}
+a.collapse-item.active {
+    background-color: #eaecf4;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.box-content {
+    background: #fff;
+    padding: 1.5rem !important;
+    border-radius: 15px;
+    box-shadow: 3px 4px 12px 0px #dce3f930;
+}
+.box-content * table {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.box-content * {
+    font-size: 14px !important;
+}
