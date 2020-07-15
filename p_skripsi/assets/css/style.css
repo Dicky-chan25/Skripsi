@@ -22,3 +22,24 @@ a.collapse-item.active {
 .box-content * {
     font-size: 14px !important;
 }
+.form-title {
+    background: #dce3f9;
+    padding: 7px 15px;
+    color: #4b6fdd;
+    border-radius: 5px;
+}
+
+.password-field {
+    position: relative;
+}
+
+.btn-show-password {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    outline: none;
+}
+
+.btn-show-password:focus {
+    box-shadow: none !important;
+}

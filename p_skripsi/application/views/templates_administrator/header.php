@@ -17,7 +17,7 @@
 
     <!-- Custom styles for this template-->
     <link href="<?php echo base_url()?>assets/css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="<?php echo base_url()?>assets/css/style.css?v=06" rel="stylesheet">
+    <link href="<?php echo base_url()?>assets/css/style.css?v=09" rel="stylesheet">
 
     <!-- Datatable Bootstrap 4 -->
     <link href="<?php echo base_url()?>assets/css/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -38,5 +38,13 @@
 
     <!-- Sweet Alert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.all.min.js"></script>
+
+    <!-- DatePicker -->
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Dropify -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css" rel="stylesheet">
+    <script src="<?php echo base_url()?>assets/js/dropify.min.js"></script>
 
 </head>
