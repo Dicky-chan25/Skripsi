@@ -192,7 +192,17 @@ class Siswa extends CI_Controller {
             $data['siswa'] = $this->global_model->get_detail('siswa', $id);
         
             if(isset($data['siswa']['id'])) {
-                $this->global_model->delete_data('siswa', $id);
+                
+                
+                $ds = $this->global_model->get_detail('siswa', $id);
+                if ($ds['foto'] != "default.jpg") {
+                    $filename = explode(".", $ds['foto'])[0];
+                    array_map('unlink', glob(FCPATH."./assets/foto/$filename.*"));
+                    $this->global_model->delete_data('siswa', $id);
+                } else {
+                    $this->global_model->delete_data('siswa', $id);
+                }
+
                 $this->session->set_flashdata('sweetalert',
                     'Toast.fire({ icon: "success", title: "Berhasil menghapus data siswa"})'
                 );
